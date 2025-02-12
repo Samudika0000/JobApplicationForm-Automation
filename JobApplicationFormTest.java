@@ -28,7 +28,7 @@ public class JobApplicationFormTest {
         driver.findElement(By.id("lastName")).sendKeys("Doe");
         driver.findElement(By.id("userEmail")).sendKeys("john.doe@example.com");
 
-        //Gender selector for radio button
+        //gender selection using radio button click
         WebElement RadioButton =driver.findElement(By.xpath("//*[@id=\"genterWrapper\"]/div[2]/div[1]/label")); //Male
         RadioButton.click();
         RadioButton.isDisplayed();
